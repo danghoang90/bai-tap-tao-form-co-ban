@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao-form 2</title>
+</head>
+<body>
+<form style="width: 400px; padding: 5px">
+    <table style="background-color:yellow; width: 100%">
+        <tr style="background-color: powderblue">
+            <td colspan="2" style="color: navy">ĐĂNG KÝ HỌC VIÊN</td>
+        </tr>
+        <tr>
+            <td><label>Họ và Tên</label></td>
+            <td align="left"><input type="text" name="ho-va-ten"size="30"></td>
+        </tr>
+        <tr>
+            <td><label>Ngày sinh</label></td>
+            <td><input type="text" name="ngaysinh"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input type="radio" name="gioitinh">Nam
+                <input type="radio" name="gioitinh">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top"><label>Địa chỉ</label></td>
+            <td><textarea name="diachi"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Lớp</label></td>
+            <td>
+                <select name="class" id="chonlop">
+                    <option hidden>-Chọn lớp-</option>
+                    <option value="lop1">Lớp 1</option>
+                    <option value="lop2">Lớp 2</option>
+                    <option value="lop3">Lớp 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="text" name="mail"></td>
+        <tr>
+            <td><label>Điện Thoại</label></td>
+            <td><input type="textarea" name=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <button type="submit">ĐĂNG KÝ</button>
+                <button type="reset">NHẬP LẠI</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
